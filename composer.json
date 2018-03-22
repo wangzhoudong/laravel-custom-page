@@ -1,0 +1,23 @@
+{
+    "name": "wangzd/laravel-custom-page",
+    "description": "laravel-custom-page是一个用于管理你需要给普通用户可以编辑的页面内容",
+    "email": "wangzhoudong@foxmail.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangzhouodng",
+            "email": "wangzhoudong@foxmail.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Wangzd\\Page\\": "src/"}
+    }
+}
