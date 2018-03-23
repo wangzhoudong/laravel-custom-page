@@ -19,5 +19,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"Wangzd\\Page\\": "src/"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wangzd\\Page\\PageServiceProvider"
+            ]
+        }
     }
 }
